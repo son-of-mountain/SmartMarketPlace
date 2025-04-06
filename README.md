@@ -247,3 +247,4 @@ This project was created by:
 - Update docs: list system requirements [67]
 - Update docs: list system requirements [68]
 - Update docs: update technology stack [69]
+- Update docs: list system requirements [70]
