@@ -246,3 +246,4 @@ This project was created by:
 - Update docs: add contributing guidelines [66]
 - Update docs: list system requirements [67]
 - Update docs: list system requirements [68]
+- Update docs: update technology stack [69]
