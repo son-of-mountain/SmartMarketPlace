@@ -245,3 +245,4 @@ This project was created by:
 - Update docs: format markdown headers [65]
 - Update docs: add contributing guidelines [66]
 - Update docs: list system requirements [67]
+- Update docs: list system requirements [68]
