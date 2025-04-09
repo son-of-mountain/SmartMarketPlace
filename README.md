@@ -244,3 +244,4 @@ This project was created by:
 - Update docs: add database schema section [64]
 - Update docs: format markdown headers [65]
 - Update docs: add contributing guidelines [66]
+- Update docs: list system requirements [67]
