@@ -242,3 +242,4 @@ This project was created by:
 - Update docs: explain auth process [62]
 - Update docs: add contributing guidelines [63]
 - Update docs: add database schema section [64]
+- Update docs: format markdown headers [65]
