@@ -240,3 +240,4 @@ This project was created by:
 - Update docs: describe API endpoints [60]
 - Update docs: add contributing guidelines [61]
 - Update docs: explain auth process [62]
+- Update docs: add contributing guidelines [63]
