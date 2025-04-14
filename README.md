@@ -239,3 +239,4 @@ This project was created by:
 - Update docs: update technology stack [59]
 - Update docs: describe API endpoints [60]
 - Update docs: add contributing guidelines [61]
+- Update docs: explain auth process [62]
