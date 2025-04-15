@@ -238,3 +238,4 @@ This project was created by:
 - Update docs: add project overview section [58]
 - Update docs: update technology stack [59]
 - Update docs: describe API endpoints [60]
+- Update docs: add contributing guidelines [61]
