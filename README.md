@@ -236,3 +236,4 @@ This project was created by:
 - Update docs: list system requirements [56]
 - Update docs: update technology stack [57]
 - Update docs: add project overview section [58]
+- Update docs: update technology stack [59]
