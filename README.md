@@ -235,3 +235,4 @@ This project was created by:
 - Update docs: fix spelling in introduction [55]
 - Update docs: list system requirements [56]
 - Update docs: update technology stack [57]
+- Update docs: add project overview section [58]
