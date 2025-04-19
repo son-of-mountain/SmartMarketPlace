@@ -234,3 +234,4 @@ This project was created by:
 - Update docs: add database schema section [54]
 - Update docs: fix spelling in introduction [55]
 - Update docs: list system requirements [56]
+- Update docs: update technology stack [57]
