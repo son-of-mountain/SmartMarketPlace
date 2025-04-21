@@ -232,3 +232,4 @@ This project was created by:
 - Update docs: update technology stack [52]
 - Update docs: format markdown headers [53]
 - Update docs: add database schema section [54]
+- Update docs: fix spelling in introduction [55]
