@@ -231,3 +231,4 @@ This project was created by:
 - Update docs: explain auth process [51]
 - Update docs: update technology stack [52]
 - Update docs: format markdown headers [53]
+- Update docs: add database schema section [54]
