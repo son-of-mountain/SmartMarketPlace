@@ -230,3 +230,4 @@ This project was created by:
 - Update docs: fix spelling in introduction [50]
 - Update docs: explain auth process [51]
 - Update docs: update technology stack [52]
+- Update docs: format markdown headers [53]
