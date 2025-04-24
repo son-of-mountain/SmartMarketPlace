@@ -229,3 +229,4 @@ This project was created by:
 - Update docs: describe API endpoints [49]
 - Update docs: fix spelling in introduction [50]
 - Update docs: explain auth process [51]
+- Update docs: update technology stack [52]
