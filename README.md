@@ -228,3 +228,4 @@ This project was created by:
 - Update docs: format markdown headers [48]
 - Update docs: describe API endpoints [49]
 - Update docs: fix spelling in introduction [50]
+- Update docs: explain auth process [51]
