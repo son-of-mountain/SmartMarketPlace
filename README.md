@@ -227,3 +227,4 @@ This project was created by:
 - Update docs: add contributing guidelines [47]
 - Update docs: format markdown headers [48]
 - Update docs: describe API endpoints [49]
+- Update docs: fix spelling in introduction [50]
