@@ -226,3 +226,4 @@ This project was created by:
 - Update docs: add database schema section [46]
 - Update docs: add contributing guidelines [47]
 - Update docs: format markdown headers [48]
+- Update docs: describe API endpoints [49]
