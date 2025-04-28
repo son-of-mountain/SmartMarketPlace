@@ -225,3 +225,4 @@ This project was created by:
 - Update docs: clarify usage instructions [45]
 - Update docs: add database schema section [46]
 - Update docs: add contributing guidelines [47]
+- Update docs: format markdown headers [48]
