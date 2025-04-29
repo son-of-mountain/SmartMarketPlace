@@ -224,3 +224,4 @@ This project was created by:
 - Update docs: add project overview section [44]
 - Update docs: clarify usage instructions [45]
 - Update docs: add database schema section [46]
+- Update docs: add contributing guidelines [47]
