@@ -222,3 +222,4 @@ This project was created by:
 - Update docs: clarify usage instructions [42]
 - Update docs: add project overview section [43]
 - Update docs: add project overview section [44]
+- Update docs: clarify usage instructions [45]
