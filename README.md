@@ -218,3 +218,4 @@ This project was created by:
 - Update docs: clarify usage instructions [38]
 - Update docs: format markdown headers [39]
 - Update docs: format markdown headers [40]
+- Update docs: fix spelling in introduction [41]
