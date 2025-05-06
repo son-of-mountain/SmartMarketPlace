@@ -217,3 +217,4 @@ This project was created by:
 - Update docs: explain auth process [37]
 - Update docs: clarify usage instructions [38]
 - Update docs: format markdown headers [39]
+- Update docs: format markdown headers [40]
