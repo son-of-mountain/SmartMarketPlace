@@ -215,3 +215,4 @@ This project was created by:
 - Update docs: list system requirements [35]
 - Update docs: add contributing guidelines [36]
 - Update docs: explain auth process [37]
+- Update docs: clarify usage instructions [38]
