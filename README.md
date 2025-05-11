@@ -212,3 +212,4 @@ This project was created by:
 - Update docs: fix spelling in introduction [32]
 - Update docs: fix spelling in introduction [33]
 - Update docs: add project overview section [34]
+- Update docs: list system requirements [35]
