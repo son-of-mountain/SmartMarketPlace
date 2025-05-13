@@ -210,3 +210,4 @@ This project was created by:
 - Update docs: add contributing guidelines [30]
 - Update docs: fix spelling in introduction [31]
 - Update docs: fix spelling in introduction [32]
+- Update docs: fix spelling in introduction [33]
