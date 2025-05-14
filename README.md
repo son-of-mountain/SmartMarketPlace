@@ -209,3 +209,4 @@ This project was created by:
 - Update docs: list system requirements [29]
 - Update docs: add contributing guidelines [30]
 - Update docs: fix spelling in introduction [31]
+- Update docs: fix spelling in introduction [32]
