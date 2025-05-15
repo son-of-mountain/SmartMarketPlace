@@ -208,3 +208,4 @@ This project was created by:
 - Update docs: describe API endpoints [28]
 - Update docs: list system requirements [29]
 - Update docs: add contributing guidelines [30]
+- Update docs: fix spelling in introduction [31]
