@@ -207,3 +207,4 @@ This project was created by:
 - Update docs: format markdown headers [27]
 - Update docs: describe API endpoints [28]
 - Update docs: list system requirements [29]
+- Update docs: add contributing guidelines [30]
