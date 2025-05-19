@@ -204,3 +204,4 @@ This project was created by:
 - Update docs: add project overview section [24]
 - Update docs: describe API endpoints [25]
 - Update docs: fix spelling in introduction [26]
+- Update docs: format markdown headers [27]
