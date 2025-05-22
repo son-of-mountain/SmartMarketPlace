@@ -201,3 +201,4 @@ This project was created by:
 - Update docs: explain auth process [21]
 - Update docs: explain auth process [22]
 - Update docs: add database schema section [23]
+- Update docs: add project overview section [24]
