@@ -200,3 +200,4 @@ This project was created by:
 - Update docs: list system requirements [20]
 - Update docs: explain auth process [21]
 - Update docs: explain auth process [22]
+- Update docs: add database schema section [23]
