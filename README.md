@@ -198,3 +198,4 @@ This project was created by:
 - Update docs: fix spelling in introduction [18]
 - Update docs: update technology stack [19]
 - Update docs: list system requirements [20]
+- Update docs: explain auth process [21]
