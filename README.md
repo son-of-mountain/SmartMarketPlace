@@ -191,3 +191,4 @@ This project was created by:
 - Update docs: fix spelling in introduction [11]
 - Update docs: explain auth process [12]
 - Update docs: clarify usage instructions [13]
+- Update docs: format markdown headers [14]
