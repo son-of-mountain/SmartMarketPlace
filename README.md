@@ -189,3 +189,4 @@ This project was created by:
 - Update docs: add database schema section [9]
 - Update docs: update technology stack [10]
 - Update docs: fix spelling in introduction [11]
+- Update docs: explain auth process [12]
