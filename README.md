@@ -187,3 +187,4 @@ This project was created by:
 - Update docs: describe API endpoints [7]
 - Update docs: add database schema section [8]
 - Update docs: add database schema section [9]
+- Update docs: update technology stack [10]
