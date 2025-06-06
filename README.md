@@ -186,3 +186,4 @@ This project was created by:
 - Update docs: list system requirements [6]
 - Update docs: describe API endpoints [7]
 - Update docs: add database schema section [8]
+- Update docs: add database schema section [9]
