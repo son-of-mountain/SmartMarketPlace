@@ -183,3 +183,4 @@ This project was created by:
 - Update docs: list system requirements [3]
 - Update docs: clarify usage instructions [4]
 - Update docs: update technology stack [5]
+- Update docs: list system requirements [6]
