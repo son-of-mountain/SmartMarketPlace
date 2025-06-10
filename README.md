@@ -182,3 +182,4 @@ This project was created by:
 - Update docs: format markdown headers [2]
 - Update docs: list system requirements [3]
 - Update docs: clarify usage instructions [4]
+- Update docs: update technology stack [5]
