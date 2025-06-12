@@ -180,3 +180,4 @@ This project was created by:
 # SmartMarketPlace
 - Update docs: add contributing guidelines [1]
 - Update docs: format markdown headers [2]
+- Update docs: list system requirements [3]
