@@ -179,3 +179,4 @@ This project was created by:
 - **Mahdi ID LAHCEN**
 # SmartMarketPlace
 - Update docs: add contributing guidelines [1]
+- Update docs: format markdown headers [2]
