@@ -178,3 +178,4 @@ This project was created by:
 - **El Houssine KHALIL**
 - **Mahdi ID LAHCEN**
 # SmartMarketPlace
+- Update docs: add contributing guidelines [1]
