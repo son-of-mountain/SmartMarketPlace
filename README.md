@@ -29,7 +29,18 @@ Smart Marketplace is a professional, full-stack job portal platform designed to 
 ![image](https://github.com/user-attachments/assets/6d6cf8c7-02be-4c29-8d83-4fc29cf3de0c)
 
 ---
+## 👁‍🗨 App Overview
+![image](https://github.com/user-attachments/assets/1bf3568f-133d-41d4-ae24-04f1a8012109)
 
+![image](https://github.com/user-attachments/assets/27c03baf-762f-4af9-baa1-1f0f50702985)
+
+![image](https://github.com/user-attachments/assets/2c10f3d4-28b9-4fcb-b69a-806cfc141c43)
+
+![image](https://github.com/user-attachments/assets/d7c9a36c-fcf2-4de9-abcf-e14351b49fb2)
+
+![image](https://github.com/user-attachments/assets/a9941c15-1857-4947-9f96-bd20294d56d9)
+
+---
 ## ⚙️ Tech Stack
 
 ### Backend
