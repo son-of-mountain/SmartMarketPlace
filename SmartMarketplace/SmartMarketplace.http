@@ -1,0 +1,10 @@
+@SmartMarketplace_HostAddress = http://localhost:5276
+
+GET {{SmartMarketplace_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{SmartMarketplace_HostAddress}}/api/users
+Accept: application/text
+
+
+###
