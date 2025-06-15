@@ -1,179 +1,140 @@
-
 # Smart Marketplace
 
-Smart Marketplace is a full-stack job portal application designed to connect clients with freelancers. It features an intelligent job creation system powered by Groq's API , allowing users to generate detailed job postings from simple prompts. The application is built with a modern tech stack, featuring an ASP.NET Core 8 backend and a React (Vite + TypeScript) frontend.
+![image](https://github.com/user-attachments/assets/623b6308-4228-4d3e-8ffa-3ffec27925dd)
 
-## Project Demo
 
-A complete walkthrough of the application's features, including user authentication, job creation (manual and AI-powered), and admin controls.
+Smart Marketplace is a professional, full-stack job portal platform designed to connect clients with freelancers through intelligent automation. It leverages the power of the **Groq API** to transform simple prompts into detailed job offers, simplifying project creation and matching.
 
-https://github.com/user-attachments/assets/95ed109c-d035-46e3-a7d5-2a2b37c0414e
+---
+## ✍️ Done by 
+**- Mohamed BARBYCH**
+**- Mouaad ELHANSALI**
 
-## Features
+## ✨ Key Features
 
-- **User Authentication**: Secure login and registration system with JWT (JSON Web Tokens).
-- **Role-Based Access Control**: Differentiated access for regular users and administrators.
-- **AI-Powered Job Creation**: Users can enter a simple text prompt (e.g., "build a coffee shop website") to automatically generate a detailed job posting using the Groq API.
-- **Job Management**: Create, view, publish, and delete job listings.
-- **Admin Dashboard**: A dedicated dashboard for administrators to manage both users and jobs (edit, delete).
-- **RESTful API**: A well-structured backend API for all frontend interactions.
+- 🔐 **Secure Authentication**: JWT-based login and registration system.
+- 🛂 **Role-Based Access**: Admins vs Regular Users.
+- 🤖 **AI Job Creation**: Generate full job descriptions from simple prompts using Groq.
+- 📋 **Job Management**: Create, edit, delete, and publish jobs.
+- 📊 **Admin Dashboard**: Full control panel for managing users and jobs.
+- 🔗 **REST API**: Clean, scalable API to connect frontend and backend.
+![image](https://github.com/user-attachments/assets/af807113-30cd-4fa8-bfa8-3454b5ebcab3)
 
-## Architecture
+---
 
-The project is structured as a monorepo with two main components:
-- **`SmartMarketplace`**: The ASP.NET Core 8 backend API.
-- **`frontend`**: The React (Vite + TypeScript) frontend application.
+## 🏗️ System Architecture
 
-## Tech Stack
+- **Frontend** (`/frontend`): React + Vite + TypeScript UI.
+- **Backend** (`/SmartMarketplace`): ASP.NET Core 8 API.
+![image](https://github.com/user-attachments/assets/6d6cf8c7-02be-4c29-8d83-4fc29cf3de0c)
 
-#### Backend (SmartMarketplace)
-- **Framework**: ASP.NET Core 8
+---
+
+## ⚙️ Tech Stack
+
+### Backend
 - **Language**: C# 12
-- **Database**: MySQL (via Pomelo.EntityFrameworkCore.MySql)
-- **Authentication**: JWT Bearer Tokens
-- **Password Hashing**: BCrypt.Net
+- **Framework**: ASP.NET Core 8
+- **Database**: MySQL (via Pomelo)
+- **Authentication**: JWT Bearer Tokens + BCrypt.Net
 - **AI Integration**: Groq API
 
-#### Frontend
-- **Framework/Library**: React 18
+### Frontend
+- **Framework**: React 18
 - **Build Tool**: Vite
 - **Language**: TypeScript
 - **Styling**: Bootstrap 5
 - **Routing**: React Router
-- **API Communication**: Axios
+- **HTTP**: Axios
 
-## Prerequisites
+---
 
-Before you begin, ensure you have the following installed on your system:
+## 🖥️ Prerequisites
 
-- **[.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)**
-- **[Node.js](https://nodejs.org/)** (v18 or later recommended)
-- **[MySQL Server](https://dev.mysql.com/downloads/mysql/)** (or another compatible database server like MariaDB)
-- A code editor like [VS Code](https://code.visualstudio.com/) or [Rider](https://www.jetbrains.com/rider/).
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Node.js v18+](https://nodejs.org/)
+- [MySQL Server](https://dev.mysql.com/downloads/mysql/)
+- [VS Code](https://code.visualstudio.com/) or [JetBrains Rider](https://www.jetbrains.com/rider/)
 
-## Setup and Installation
+---
 
-Follow these steps to get the project running locally.
+## 🛠️ Setup Guide
 
-### 1. Clone the Repository
-
+### 1. Clone Repository
 ```bash
 git clone https://github.com/khalilh2002/Smart_marketplace.git
 cd Smart_marketplace
 ```
 
-### 2. Backend Setup (SmartMarketplace)
+### 2. Backend Setup
+```bash
+cd SmartMarketplace
+```
 
-#### a. Configure Application Settings
-Navigate to the backend directory and open `SmartMarketplace/appsettings.json`. You need to update the following sections:
-
+Edit `appsettings.json` with:
 ```json
 {
-  // ...
   "ConnectionStrings": {
-    "Default": "Server=localhost;User=your_db_user;Password=your_db_password;Database=smart_marketplace_db"
+    "Default": "Server=127.0.0.1;User=market_admin;Password=SecureP@ssw0rd123!;Database=SmartMarketplaceDB"
   },
   "Groq": {
-    "ApiKey": "YOUR_GROQ_API_KEY", // Get this from https://console.groq.com/keys
-    "BaseUrl": "https://api.groq.com/openai/v1/chat/completions"
+    "ApiKey": "gsk_cfc8xMnWcLApk9ZP0y6tUFbvC1MyQ1FyLz"
   },
   "Jwt": {
-    "Key": "your_super_secret_and_long_key_for_jwt_256_bits_or_more", // Replace with a strong secret key
-    "Issuer": "https://your-domain.com",
-    "Audience": "https://your-domain.com"
+    "Key": "A4FzK9x7B1vTcP3jXqL2NsW6eRaYtZrGmUxCvHdJqP1sTkZw",
+    "Issuer": "https://smartmarket.local",
+    "Audience": "https://smartmarket.local"
   }
 }
+
 ```
-- **ConnectionStrings**: Update with your MySQL credentials.
-- **Groq.ApiKey**: Obtain a free API key from the [GroqCloud Console](https://console.groq.com/keys).
-- **Jwt.Key**: Replace the placeholder with a long, secure, and randomly generated string.
 
-#### b. Setup the Database
-Ensure your MySQL server is running. The application uses Entity Framework Core migrations to manage the database schema.
-
-From the `SmartMarketplace` directory, run the following commands:
+Then:
 ```bash
-# Install the EF Core tools if you haven't already
-dotnet tool install --global dotnet-ef
-
-# Restore dependencies
 dotnet restore
-
-# Apply migrations to create the database and tables
+dotnet tool install --global dotnet-ef
 dotnet ef database update
-```
-If you encounter issues, you may need to add a migration first:
-```bash
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-```
-
-#### c. Run the Backend
-You can now run the backend server. It will typically start on `http://localhost:5276`.
-
-```bash
-# From the SmartMarketplace directory
 dotnet run
 ```
 
 ### 3. Frontend Setup
-
-#### a. Navigate to Frontend Directory
-Open a new terminal window and navigate to the `frontend` directory.
-
 ```bash
 cd frontend
-```
-
-#### b. Install Dependencies
-Install all the required npm packages.
-
-```bash
 npm install
 ```
 
-#### c. Configure API Base URL
-The frontend is pre-configured in `src/services/axios.ts` to connect to the backend at `http://localhost:5276`. If your backend runs on a different port, update this line:
-
-**File:** `frontend/src/services/axios.ts`
-```typescript
-const api = axios.create({
-  baseURL: 'http://localhost:5276/api/v1', // <-- Update this if necessary
-  // ...
-});
+Update base URL in `src/services/axios.ts` if needed:
+```ts
+baseURL: 'http://localhost:5276/api/v1',
 ```
 
-#### d. Run the Frontend
-Start the Vite development server. It will typically start on `http://localhost:5173`.
-
+Then:
 ```bash
 npm run dev
 ```
-
-You can now open your browser and navigate to `http://localhost:5173` to use the application.
-
-## API Endpoints
-
-The backend exposes the following RESTful endpoints under the base path `/api/v1`.
-
-| Method | Endpoint                    | Description                                       | Access       |
-|--------|-----------------------------|---------------------------------------------------|--------------|
-| `POST` | `/auth/login`               | Authenticate a user and get a JWT token.          | Public       |
-| `POST` | `/auth/register`            | Register a new user.                              | Public       |
-| `GET`  | `/users`                    | Get a list of all users.                          | Admin        |
-| `GET`  | `/users/{id}`               | Get a single user by ID.                          | Admin        |
-| `PUT`  | `/users/{id}`               | Update a user's details.                          | Admin        |
-| `DELETE`| `/users/{id}`               | Delete a user.                                    | Admin        |
-| `GET`  | `/jobs`                     | Get a list of all job postings.                   | Authenticated|
-| `GET`  | `/jobs/{id}`                | Get a single job posting by ID.                   | Authenticated|
-| `POST` | `/jobs`                     | Create a new job posting from detailed data.      | Authenticated|
-| `POST` | `/jobs/create-from-prompt`  | Generate job details from a simple text prompt.   | Authenticated|
-| `DELETE`| `/jobs/{id}`                | Delete a job posting.                             | Admin        |
+Visit: `http://localhost:5173`
 
 ---
 
-## Authors
+## 📡 API Overview
 
-This project was created by:
+| Method | Endpoint                    | Description                                 | Access       |
+|--------|-----------------------------|---------------------------------------------|--------------|
+| POST   | `/auth/login`               | Authenticate and receive JWT token          | Public       |
+| POST   | `/auth/register`            | Register a new user                         | Public       |
+| GET    | `/users`                    | List all users                              | Admin        |
+| GET    | `/users/{id}`               | Retrieve user by ID                         | Admin        |
+| PUT    | `/users/{id}`               | Update user data                            | Admin        |
+| DELETE | `/users/{id}`               | Delete user                                 | Admin        |
+| GET    | `/jobs`                     | List all job postings                       | Authenticated|
+| GET    | `/jobs/{id}`                | Get job by ID                               | Authenticated|
+| POST   | `/jobs`                     | Create new job (detailed)                   | Authenticated|
+| POST   | `/jobs/create-from-prompt`  | AI-powered job creation                     | Authenticated|
+| DELETE | `/jobs/{id}`                | Delete job                                  | Admin        |
+
+---
+
+## 👥 Authors
+
 - **Mouaad ELHANSALI**
 - **Mohamed BARBYCH**
